@@ -1,9 +1,27 @@
 img {
   width: 100%;
-  object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #000;
+  margin-bottom: 30px;
 }
 
 .newsType {
   color: rgb(21, 167, 13);
+}
+
+.imgBox {
+  transition: all 0.3s ease-in-out;
+}
+
+.imgBox:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #000;
+  border: 3px solid tomato;
+  z-index: 1;
 }

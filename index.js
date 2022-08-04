@@ -156,7 +156,7 @@ const displayNews = () => {
     let date = news.publishedAt.split("T");
 
     let col = document.createElement("div");
-    col.className = "col-sm-12 col-md-4 col-lg-3 p-2 card";
+    col.className = "col-sm-12 col-md-4 col-lg-3 p-2 card imgBox";
 
     let card = document.createElement("div");
     card.className = "p-2";
