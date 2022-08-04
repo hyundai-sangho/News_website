@@ -1,0 +1,9 @@
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.newsType {
+  color: rgb(21, 167, 13);
+}
